@@ -1,0 +1,895 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1153</width>
+    <height>695</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <layout class="QGridLayout" name="gridLayout">
+    <item row="0" column="1">
+     <widget class="QStackedWidget" name="sMenu">
+      <property name="minimumSize">
+       <size>
+        <width>150</width>
+        <height>0</height>
+       </size>
+      </property>
+      <property name="maximumSize">
+       <size>
+        <width>150</width>
+        <height>16777215</height>
+       </size>
+      </property>
+      <property name="styleSheet">
+       <string notr="true"/>
+      </property>
+      <property name="currentIndex">
+       <number>1</number>
+      </property>
+      <widget class="QWidget" name="m_0"/>
+      <widget class="QWidget" name="m_1">
+       <layout class="QGridLayout" name="gridLayout_4">
+        <item row="0" column="0">
+         <widget class="QPushButton" name="mOpen">
+          <property name="sizePolicy">
+           <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
+            <horstretch>0</horstretch>
+            <verstretch>0</verstretch>
+           </sizepolicy>
+          </property>
+          <property name="minimumSize">
+           <size>
+            <width>120</width>
+            <height>50</height>
+           </size>
+          </property>
+          <property name="maximumSize">
+           <size>
+            <width>120</width>
+            <height>50</height>
+           </size>
+          </property>
+          <property name="font">
+           <font>
+            <family>Arial Black</family>
+            <pointsize>14</pointsize>
+            <weight>75</weight>
+            <bold>true</bold>
+           </font>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">
+QPushButton{
+	color: rgb(127,127,127);
+	background-color: white;
+	border: 2px solid rgb(127,127,127);
+	border-radius: 5px;
+	
+}
+
+QPushButton:hover{
+	color: rgb(50,50,50);
+	background-color: white;
+	border: 2px solid rgb(50,50,50);
+	border-radius: 5px;
+	
+}</string>
+          </property>
+          <property name="text">
+           <string>OPEN</string>
+          </property>
+          <property name="autoDefault">
+           <bool>false</bool>
+          </property>
+          <property name="default">
+           <bool>false</bool>
+          </property>
+          <property name="flat">
+           <bool>false</bool>
+          </property>
+         </widget>
+        </item>
+        <item row="1" column="0">
+         <widget class="QPushButton" name="mPlay">
+          <property name="sizePolicy">
+           <sizepolicy hsizetype="Preferred" vsizetype="Minimum">
+            <horstretch>0</horstretch>
+            <verstretch>0</verstretch>
+           </sizepolicy>
+          </property>
+          <property name="minimumSize">
+           <size>
+            <width>120</width>
+            <height>50</height>
+           </size>
+          </property>
+          <property name="maximumSize">
+           <size>
+            <width>120</width>
+            <height>50</height>
+           </size>
+          </property>
+          <property name="font">
+           <font>
+            <family>Arial Black</family>
+            <pointsize>14</pointsize>
+            <weight>75</weight>
+            <bold>true</bold>
+           </font>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">
+QPushButton{
+	color: rgb(127,127,127);
+	background-color: white;
+	border: 2px solid rgb(127,127,127);
+	border-radius: 5px;
+	
+}
+
+QPushButton:hover{
+	color: rgb(50,50,50);
+	background-color: white;
+	border: 2px solid rgb(50,50,50);
+	border-radius: 5px;
+	
+}</string>
+          </property>
+          <property name="text">
+           <string>PLAY</string>
+          </property>
+         </widget>
+        </item>
+        <item row="2" column="0">
+         <widget class="QPushButton" name="mYolo">
+          <property name="sizePolicy">
+           <sizepolicy hsizetype="Preferred" vsizetype="Minimum">
+            <horstretch>0</horstretch>
+            <verstretch>0</verstretch>
+           </sizepolicy>
+          </property>
+          <property name="minimumSize">
+           <size>
+            <width>120</width>
+            <height>50</height>
+           </size>
+          </property>
+          <property name="maximumSize">
+           <size>
+            <width>120</width>
+            <height>50</height>
+           </size>
+          </property>
+          <property name="font">
+           <font>
+            <family>Arial Black</family>
+            <pointsize>14</pointsize>
+            <weight>75</weight>
+            <bold>true</bold>
+           </font>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">
+QPushButton{
+	color: rgb(127,127,127);
+	background-color: white;
+	border: 2px solid rgb(127,127,127);
+	border-radius: 5px;
+	
+}
+
+QPushButton:hover{
+	color: rgb(50,50,50);
+	background-color: white;
+	border: 2px solid rgb(50,50,50);
+	border-radius: 5px;
+	
+}</string>
+          </property>
+          <property name="text">
+           <string>YOLO</string>
+          </property>
+         </widget>
+        </item>
+        <item row="3" column="0">
+         <widget class="QPushButton" name="mMosaic">
+          <property name="sizePolicy">
+           <sizepolicy hsizetype="Preferred" vsizetype="Minimum">
+            <horstretch>0</horstretch>
+            <verstretch>0</verstretch>
+           </sizepolicy>
+          </property>
+          <property name="minimumSize">
+           <size>
+            <width>120</width>
+            <height>50</height>
+           </size>
+          </property>
+          <property name="maximumSize">
+           <size>
+            <width>120</width>
+            <height>50</height>
+           </size>
+          </property>
+          <property name="font">
+           <font>
+            <family>Arial Black</family>
+            <pointsize>14</pointsize>
+            <weight>75</weight>
+            <bold>true</bold>
+           </font>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">
+QPushButton{
+	color: rgb(127,127,127);
+	background-color: white;
+	border: 2px solid rgb(127,127,127);
+	border-radius: 5px;
+	
+}
+
+QPushButton:hover{
+	color: rgb(50,50,50);
+	background-color: white;
+	border: 2px solid rgb(50,50,50);
+	border-radius: 5px;
+	
+}</string>
+          </property>
+          <property name="text">
+           <string>MOSAIC</string>
+          </property>
+         </widget>
+        </item>
+        <item row="4" column="0">
+         <widget class="QPushButton" name="mClose">
+          <property name="sizePolicy">
+           <sizepolicy hsizetype="Preferred" vsizetype="Minimum">
+            <horstretch>0</horstretch>
+            <verstretch>0</verstretch>
+           </sizepolicy>
+          </property>
+          <property name="minimumSize">
+           <size>
+            <width>120</width>
+            <height>50</height>
+           </size>
+          </property>
+          <property name="maximumSize">
+           <size>
+            <width>120</width>
+            <height>50</height>
+           </size>
+          </property>
+          <property name="font">
+           <font>
+            <family>Arial Black</family>
+            <pointsize>14</pointsize>
+            <weight>75</weight>
+            <bold>true</bold>
+           </font>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">
+
+QPushButton{
+	color: rgb(127,127,127);
+	background-color: white;
+	border: 2px solid rgb(127,127,127);
+	border-radius: 5px;
+	
+}
+
+QPushButton:hover{
+	color: rgb(50,50,50);
+	background-color: white;
+	border: 2px solid rgb(50,50,50);
+	border-radius: 5px;
+	
+}</string>
+          </property>
+          <property name="text">
+           <string>CLOSE</string>
+          </property>
+         </widget>
+        </item>
+        <item row="5" column="0">
+         <widget class="QLabel" name="label_n_2">
+          <property name="minimumSize">
+           <size>
+            <width>120</width>
+            <height>50</height>
+           </size>
+          </property>
+          <property name="maximumSize">
+           <size>
+            <width>120</width>
+            <height>50</height>
+           </size>
+          </property>
+          <property name="font">
+           <font>
+            <family>Arial Black</family>
+            <pointsize>14</pointsize>
+            <weight>75</weight>
+            <bold>true</bold>
+           </font>
+          </property>
+          <property name="styleSheet">
+           <string notr="true"/>
+          </property>
+          <property name="text">
+           <string/>
+          </property>
+          <property name="alignment">
+           <set>Qt::AlignCenter</set>
+          </property>
+         </widget>
+        </item>
+        <item row="6" column="0">
+         <widget class="QLabel" name="label_c_2">
+          <property name="minimumSize">
+           <size>
+            <width>120</width>
+            <height>200</height>
+           </size>
+          </property>
+          <property name="maximumSize">
+           <size>
+            <width>120</width>
+            <height>200</height>
+           </size>
+          </property>
+          <property name="font">
+           <font>
+            <family>Arial Black</family>
+            <pointsize>24</pointsize>
+            <weight>75</weight>
+            <bold>true</bold>
+           </font>
+          </property>
+          <property name="styleSheet">
+           <string notr="true"/>
+          </property>
+          <property name="text">
+           <string/>
+          </property>
+          <property name="alignment">
+           <set>Qt::AlignCenter</set>
+          </property>
+         </widget>
+        </item>
+       </layout>
+      </widget>
+      <widget class="QWidget" name="m_2">
+       <widget class="QPushButton" name="wOpen">
+        <property name="geometry">
+         <rect>
+          <x>15</x>
+          <y>19</y>
+          <width>120</width>
+          <height>50</height>
+         </rect>
+        </property>
+        <property name="sizePolicy">
+         <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
+          <horstretch>0</horstretch>
+          <verstretch>0</verstretch>
+         </sizepolicy>
+        </property>
+        <property name="minimumSize">
+         <size>
+          <width>120</width>
+          <height>50</height>
+         </size>
+        </property>
+        <property name="maximumSize">
+         <size>
+          <width>120</width>
+          <height>50</height>
+         </size>
+        </property>
+        <property name="font">
+         <font>
+          <family>Arial Black</family>
+          <pointsize>14</pointsize>
+          <weight>75</weight>
+          <bold>true</bold>
+         </font>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">
+QPushButton{
+	color: rgb(127,127,127);
+	background-color: white;
+	border: 2px solid rgb(127,127,127);
+	border-radius: 5px;
+	
+}
+
+QPushButton:hover{
+	color: rgb(50,50,50);
+	background-color: white;
+	border: 2px solid rgb(50,50,50);
+	border-radius: 5px;
+	
+}</string>
+        </property>
+        <property name="text">
+         <string>OPEN</string>
+        </property>
+       </widget>
+       <widget class="QPushButton" name="wPlay">
+        <property name="geometry">
+         <rect>
+          <x>15</x>
+          <y>85</y>
+          <width>120</width>
+          <height>50</height>
+         </rect>
+        </property>
+        <property name="sizePolicy">
+         <sizepolicy hsizetype="Preferred" vsizetype="Minimum">
+          <horstretch>0</horstretch>
+          <verstretch>0</verstretch>
+         </sizepolicy>
+        </property>
+        <property name="minimumSize">
+         <size>
+          <width>120</width>
+          <height>50</height>
+         </size>
+        </property>
+        <property name="maximumSize">
+         <size>
+          <width>120</width>
+          <height>50</height>
+         </size>
+        </property>
+        <property name="font">
+         <font>
+          <family>Arial Black</family>
+          <pointsize>14</pointsize>
+          <weight>75</weight>
+          <bold>true</bold>
+         </font>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">
+QPushButton{
+	color: rgb(127,127,127);
+	background-color: white;
+	border: 2px solid rgb(127,127,127);
+	border-radius: 5px;
+	
+}
+
+QPushButton:hover{
+	color: rgb(50,50,50);
+	background-color: white;
+	border: 2px solid rgb(50,50,50);
+	border-radius: 5px;
+	
+}</string>
+        </property>
+        <property name="text">
+         <string>PLAY</string>
+        </property>
+       </widget>
+       <widget class="QPushButton" name="wYolo">
+        <property name="geometry">
+         <rect>
+          <x>15</x>
+          <y>151</y>
+          <width>120</width>
+          <height>50</height>
+         </rect>
+        </property>
+        <property name="sizePolicy">
+         <sizepolicy hsizetype="Preferred" vsizetype="Minimum">
+          <horstretch>0</horstretch>
+          <verstretch>0</verstretch>
+         </sizepolicy>
+        </property>
+        <property name="minimumSize">
+         <size>
+          <width>120</width>
+          <height>50</height>
+         </size>
+        </property>
+        <property name="maximumSize">
+         <size>
+          <width>120</width>
+          <height>50</height>
+         </size>
+        </property>
+        <property name="font">
+         <font>
+          <family>Arial Black</family>
+          <pointsize>14</pointsize>
+          <weight>75</weight>
+          <bold>true</bold>
+         </font>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">
+QPushButton{
+	color: rgb(127,127,127);
+	background-color: white;
+	border: 2px solid rgb(127,127,127);
+	border-radius: 5px;
+	
+}
+
+QPushButton:hover{
+	color: rgb(50,50,50);
+	background-color: white;
+	border: 2px solid rgb(50,50,50);
+	border-radius: 5px;
+	
+}</string>
+        </property>
+        <property name="text">
+         <string>YOLO</string>
+        </property>
+       </widget>
+       <widget class="QPushButton" name="wMosaic">
+        <property name="geometry">
+         <rect>
+          <x>15</x>
+          <y>217</y>
+          <width>120</width>
+          <height>50</height>
+         </rect>
+        </property>
+        <property name="sizePolicy">
+         <sizepolicy hsizetype="Preferred" vsizetype="Minimum">
+          <horstretch>0</horstretch>
+          <verstretch>0</verstretch>
+         </sizepolicy>
+        </property>
+        <property name="minimumSize">
+         <size>
+          <width>120</width>
+          <height>50</height>
+         </size>
+        </property>
+        <property name="maximumSize">
+         <size>
+          <width>120</width>
+          <height>50</height>
+         </size>
+        </property>
+        <property name="font">
+         <font>
+          <family>Arial Black</family>
+          <pointsize>14</pointsize>
+          <weight>75</weight>
+          <bold>true</bold>
+         </font>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">
+QPushButton{
+	color: rgb(127,127,127);
+	background-color: white;
+	border: 2px solid rgb(127,127,127);
+	border-radius: 5px;
+	
+}
+
+QPushButton:hover{
+	color: rgb(50,50,50);
+	background-color: white;
+	border: 2px solid rgb(50,50,50);
+	border-radius: 5px;
+	
+}</string>
+        </property>
+        <property name="text">
+         <string>MOSAIC</string>
+        </property>
+       </widget>
+       <widget class="QPushButton" name="wClose">
+        <property name="geometry">
+         <rect>
+          <x>15</x>
+          <y>283</y>
+          <width>120</width>
+          <height>50</height>
+         </rect>
+        </property>
+        <property name="sizePolicy">
+         <sizepolicy hsizetype="Preferred" vsizetype="Minimum">
+          <horstretch>0</horstretch>
+          <verstretch>0</verstretch>
+         </sizepolicy>
+        </property>
+        <property name="minimumSize">
+         <size>
+          <width>120</width>
+          <height>50</height>
+         </size>
+        </property>
+        <property name="maximumSize">
+         <size>
+          <width>120</width>
+          <height>50</height>
+         </size>
+        </property>
+        <property name="font">
+         <font>
+          <family>Arial Black</family>
+          <pointsize>14</pointsize>
+          <weight>75</weight>
+          <bold>true</bold>
+         </font>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">
+QPushButton{
+	color: rgb(127,127,127);
+	background-color: white;
+	border: 2px solid rgb(127,127,127);
+	border-radius: 5px;
+	
+}
+
+QPushButton:hover{
+	color: rgb(50,50,50);
+	background-color: white;
+	border: 2px solid rgb(50,50,50);
+	border-radius: 5px;
+	
+}</string>
+        </property>
+        <property name="text">
+         <string>CLOSE</string>
+        </property>
+       </widget>
+       <widget class="QLabel" name="label_n">
+        <property name="geometry">
+         <rect>
+          <x>15</x>
+          <y>349</y>
+          <width>120</width>
+          <height>50</height>
+         </rect>
+        </property>
+        <property name="minimumSize">
+         <size>
+          <width>120</width>
+          <height>50</height>
+         </size>
+        </property>
+        <property name="maximumSize">
+         <size>
+          <width>120</width>
+          <height>50</height>
+         </size>
+        </property>
+        <property name="font">
+         <font>
+          <family>Arial Black</family>
+          <pointsize>14</pointsize>
+          <weight>75</weight>
+          <bold>true</bold>
+         </font>
+        </property>
+        <property name="styleSheet">
+         <string notr="true"/>
+        </property>
+        <property name="text">
+         <string/>
+        </property>
+        <property name="alignment">
+         <set>Qt::AlignCenter</set>
+        </property>
+       </widget>
+       <widget class="QLabel" name="label_c">
+        <property name="geometry">
+         <rect>
+          <x>15</x>
+          <y>415</y>
+          <width>120</width>
+          <height>200</height>
+         </rect>
+        </property>
+        <property name="minimumSize">
+         <size>
+          <width>120</width>
+          <height>200</height>
+         </size>
+        </property>
+        <property name="maximumSize">
+         <size>
+          <width>120</width>
+          <height>200</height>
+         </size>
+        </property>
+        <property name="font">
+         <font>
+          <family>Arial Black</family>
+          <pointsize>24</pointsize>
+          <weight>75</weight>
+          <bold>true</bold>
+         </font>
+        </property>
+        <property name="styleSheet">
+         <string notr="true"/>
+        </property>
+        <property name="text">
+         <string/>
+        </property>
+        <property name="alignment">
+         <set>Qt::AlignCenter</set>
+        </property>
+       </widget>
+      </widget>
+     </widget>
+    </item>
+    <item row="0" column="0">
+     <widget class="QStackedWidget" name="sView">
+      <property name="styleSheet">
+       <string notr="true">
+background-color: rgb(231, 231, 231);</string>
+      </property>
+      <property name="currentIndex">
+       <number>0</number>
+      </property>
+      <widget class="QWidget" name="p_0">
+       <layout class="QGridLayout" name="gridLayout_2">
+        <item row="0" column="0">
+         <widget class="QLabel" name="front">
+          <property name="text">
+           <string/>
+          </property>
+          <property name="pixmap">
+           <pixmap>hoseo.jpg</pixmap>
+          </property>
+          <property name="scaledContents">
+           <bool>true</bool>
+          </property>
+         </widget>
+        </item>
+       </layout>
+      </widget>
+      <widget class="QWidget" name="p_1">
+       <layout class="QGridLayout" name="gridLayout_3">
+        <item row="0" column="0">
+         <widget class="QLabel" name="moving">
+          <property name="text">
+           <string/>
+          </property>
+          <property name="scaledContents">
+           <bool>true</bool>
+          </property>
+         </widget>
+        </item>
+       </layout>
+      </widget>
+      <widget class="QWidget" name="p_2">
+       <layout class="QGridLayout" name="gridLayout_6">
+        <item row="0" column="0">
+         <widget class="QLabel" name="cam">
+          <property name="styleSheet">
+           <string notr="true">background-color: rgb(231, 231, 231);
+border-style: solid;
+border-width: 2px;
+border-color: rgb(214,214,214);
+border-radius: 3px</string>
+          </property>
+          <property name="text">
+           <string/>
+          </property>
+          <property name="scaledContents">
+           <bool>true</bool>
+          </property>
+          <property name="alignment">
+           <set>Qt::AlignCenter</set>
+          </property>
+         </widget>
+        </item>
+       </layout>
+      </widget>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>1153</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <widget class="QMenu" name="menuFILE">
+    <property name="title">
+     <string>영상 </string>
+    </property>
+    <addaction name="Pic"/>
+    <addaction name="Cam"/>
+   </widget>
+   <widget class="QMenu" name="menuDevice">
+    <property name="title">
+     <string>Yolo</string>
+    </property>
+    <addaction name="Person"/>
+    <addaction name="Car"/>
+    <addaction name="Bus"/>
+   </widget>
+   <addaction name="menuFILE"/>
+   <addaction name="menuDevice"/>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+  <action name="actionopen">
+   <property name="text">
+    <string>open</string>
+   </property>
+  </action>
+  <action name="actionplay">
+   <property name="text">
+    <string>play</string>
+   </property>
+  </action>
+  <action name="actionopen_2">
+   <property name="text">
+    <string>open</string>
+   </property>
+  </action>
+  <action name="actionopen_3">
+   <property name="text">
+    <string>open</string>
+   </property>
+  </action>
+  <action name="actionOpen">
+   <property name="text">
+    <string>Open</string>
+   </property>
+  </action>
+  <action name="actionOpen_2">
+   <property name="text">
+    <string>Open</string>
+   </property>
+  </action>
+  <action name="Person">
+   <property name="text">
+    <string>Person</string>
+   </property>
+  </action>
+  <action name="Car">
+   <property name="text">
+    <string>Car</string>
+   </property>
+  </action>
+  <action name="Bus">
+   <property name="text">
+    <string>Bus</string>
+   </property>
+  </action>
+  <action name="Pic">
+   <property name="text">
+    <string>Video</string>
+   </property>
+  </action>
+  <action name="Cam">
+   <property name="text">
+    <string>Web Camera</string>
+   </property>
+  </action>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
